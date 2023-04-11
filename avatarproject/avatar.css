@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+    filter: grayscale(80%);
+    transition: .5s;
+}
+
+.card-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-item span {
+    position: absolute;
+    bottom: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #030d28;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.img-water {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
+
+.img-fire {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+}
+
+
+
+
+span .img-earth {
+    border-radius: 50%;
+}
+
+
+.expand {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #C0C0C0,
+    0 0 50px #C0C0C0;
+    filter: grayscale(0);
+}
+
+h1 {
+    color: #C0C0C0;
+}
+
+.nav {
+    position: absolute;
+}
+.avatar {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
