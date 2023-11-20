@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald&family=Public+Sans&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    margin-top: 260px;
+}
+
+.main_text{
+    width: 272px;
+    height: 92px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 200px;
+}
+
+form{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.input{
+
+    width: 561px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 1px 87px 1px 52px;
+    border: 0;
+    color: white;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    font-size: 15px;
+    
+}
+::placeholder{
+    color: white;
+}
+
+.img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
