@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    text-align: center;
+   margin-top: 25px;
+}
+
+.image{
+    width: 500px;
+    border: 2px solid #222;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 8px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+

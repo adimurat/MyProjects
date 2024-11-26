@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.btn{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    
+}
+
+.btn:hover{
+    background-color: #222;
+    color: whitesmoke;
+    transition: all 0.25s ease-in;
+}
+
+.clr{
+    font-size: 28px;
+    color: #49a6e9;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    margin-top: 150px;
+}
+
+.count-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.count-item{
+    display: flex;
+    gap: 5px;
+    background-color: #222;
+    color: whitesmoke;
+    padding: 5px;
+}

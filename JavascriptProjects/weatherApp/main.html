@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="side">
+                <div class="side-input">
+                    <img src="images/search.png" alt="" style="width: 18px;">
+                    <input type="text" placeholder="Search for places..." class="inpt">
+                </div>
+                <div class="side-content">
+                    <img src="images/weather.png" alt="" class="side-img">
+                    <h1 style="margin-top: 10px;">12°C</h1>
+                    <div style="display: flex; align-items: center;" id="weathers">
+                        <p style="margin-top: 5px;">Monday, <span style="color: #c0c0c0;">16:00</span></p>
+                    </div>
+                    <div class="sub-info">
+                        <img src="images/cloud.png" alt="" class="sub-info-img">
+                        <p>Mostly Cloudy</p>
+                    </div>
+                    <div class="sub-info">
+                        <img src="images/rain (1).png" alt="" class="sub-info-img">
+                        <p>Rain - 30%</p>
+                    </div>
+                    <div class="side-box">
+                        <p>Almaty City, KZ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="header">
+                    <nav class="links">
+                        <a href="">Today</a>
+                        <a href="">Week</a>
+                    </nav>
+                    <div class="buttons">
+                        <button class="btn">°C</button>
+                        <button class="btn">°F</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1 style="margin-top: 50px ;">Today's Highlights</h1>
+                    <div class="content-info">
+                        <div class="content-card">
+                            <p class="content-title">Wind Status</p>
+                            <p style="margin-top: 20px;">7.70km/h</p>
+                        </div>
+                        <div class="content-card">
+                            <p class="content-title">Sunrise & Sunset</p>
+                            <div style="display: flex; align-items: center; gap: 5px; margin-top: 10px;">
+                                <span><img src="images/sunrise.png" alt="" class="content-img"></span>
+                                <p>6:35 AM</p>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 5px; margin-top: 5px;">
+                                <span><img src="images/sunset.png" alt="" class="content-img"></span>
+                                <p>5:42 PM</p>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <p class="content-title">Humidity</p>
+                            <p class="content-sub-title">12%</p>
+                            <p class="content-sub-title">Normal👌</p>
+                        </div>
+                        <div class="content-card">
+                            <p class="content-title">Visibility</p>
+                            <p class="content-sub-title">5.2km</p>
+                            <p class="content-sub-title">Average🤨</p>
+                        </div>
+                        <div class="content-card">
+                            <p class="content-title">Air Quality</p>
+                            <p class="content-sub-title">105</p>
+                            <p class="content-sub-title">Unhealthy🤕 </p>
+                        </div>
+                        <div class="content-card"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
